@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply inline-block border-[1px] px-[2rem] py-[0.5rem] text-sm font-medium transition-all;
+}
+
+.btn-white {
+  @apply min-w-[150px] rounded-[50px] border-white bg-white text-center capitalize text-black;
+}
+
+.btn-sm {
+  @apply h-[42px] leading-[24px];
+}
+
+.navlink {
+  @apply inline-block px-[0.75rem] py-[0.5rem] text-[15px] hover:text-orange-500;
+}
+
+.navlink.active {
+  @apply relative after:absolute after:bottom-0 after:left-[0.5rem] after:right-[0.5rem] after:h-[0.125rem] after:bg-gradient-to-r after:from-yellow-400 after:to-pink-400;
+}
