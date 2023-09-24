@@ -1,3 +1,3 @@
 ## Pinwheel website
 
-- designed and developed by [https://themewagon.github.io/pinwheel/](Themefisher)
+- designed and developed by [Themefisher](https://themewagon.github.io/pinwheel/)
