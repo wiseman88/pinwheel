@@ -1,0 +1,27 @@
+.solutions {
+  @apply mt-10 grid grid-cols-2 gap-7 md:grid-cols-3 xl:grid-cols-4;
+}
+
+.solution {
+  @apply flex flex-col justify-between rounded-lg bg-white p-5 shadow-lg;
+}
+
+.solution h3 {
+  @apply text-xl lg:text-2xl;
+}
+
+.solution p {
+  @apply mt-3 text-sm;
+}
+
+.solution span {
+  @apply mt-4 h-6 w-6;
+}
+
+.solution img {
+  @apply h-full w-full object-contain;
+}
+
+.cta {
+  @apply justify-center rounded-b-[80px] rounded-t-[20px] bg-gradient-to-b from-pink-400 to-yellow-400 px-[30px] pb-[75px] pt-16;
+}

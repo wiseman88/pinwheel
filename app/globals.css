@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .btn {
-  @apply inline-block border-[1px] px-[2rem] py-[0.5rem] text-sm font-medium transition-all;
+  @apply inline-block h-[52px] border-[1px] px-[2rem] py-[0.5rem] text-sm font-medium leading-9 transition-all;
 }
 
 .btn-white {
-  @apply min-w-[150px] rounded-[50px] border-white bg-white text-center capitalize text-black;
+  @apply min-w-[150px] rounded-[50px] border-white bg-white text-center capitalize text-black shadow-2xl;
 }
 
 .btn-sm {
@@ -20,4 +20,16 @@
 
 .navlink.active {
   @apply relative after:absolute after:bottom-0 after:left-[0.5rem] after:right-[0.5rem] after:h-[0.125rem] after:bg-gradient-to-r after:from-yellow-400 after:to-pink-400;
+}
+
+.section {
+  @apply py-16;
+}
+
+.wrapper {
+  @apply lg:-mx-4 lg:flex lg:flex-row;
+}
+
+.wrapper > * {
+  @apply px-4;
 }
