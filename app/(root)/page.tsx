@@ -18,11 +18,9 @@ const Home = () => {
     <>
       <section className="section relative">
         <div className="container">
-          <div className="wrapper">
+          <div className="wrapper items-center">
             <div className="lg:w-1/2 lg:px-4">
-              <h1 className="text-5xl font-bold leading-[1.25]">
-                Scale design & dev operations with Avocode Enterprise
-              </h1>
+              <h1>Scale design & dev operations with Avocode Enterprise</h1>
               <p className="mt-6 text-gray-500">
                 A fully integrated suite of authentication & authoriz products,
                 Stytch’s platform removes the headache of.
@@ -54,9 +52,7 @@ const Home = () => {
         <div className="container">
           <div className="wrapper text-center lg:justify-between lg:text-start">
             <div className="lg:w-5/12">
-              <h2 className="text-4xl font-bold leading-[1.25]">
-                The Highlighting Part Of Our Solution
-              </h2>
+              <h2>The Highlighting Part Of Our Solution</h2>
             </div>
             <div className="mt-6 lg:mt-0 lg:w-5/12">
               <p>
@@ -99,9 +95,7 @@ const Home = () => {
               <Image src={sales} alt="sales" width={810} height={558} />
             </div>
             <div className="mt-6 lg:order-1 lg:mt-0 lg:w-5/12">
-              <h2 className="text-4xl font-bold leading-[1.25]">
-                Prevent failure from to impacting your reputation
-              </h2>
+              <h2>Prevent failure from to impacting your reputation</h2>
               <p className="mt-4">
                 Our platform helps you build secure onboarding authentication
                 experiences that retain and engage your users. We build the
@@ -119,9 +113,7 @@ const Home = () => {
               />
             </div>
             <div className="mt-6 lg:mt-0 lg:w-5/12">
-              <h2 className="text-4xl font-bold leading-[1.25]">
-                Accept payments any country in this whole universe
-              </h2>
+              <h2>Accept payments any country in this whole universe</h2>
               <p className="mt-4">
                 Donec sollicitudin molestie malesda. Donec sollitudin molestie
                 malesuada. Mauris pellentesque nec, egestas non nisi. Cras
@@ -172,9 +164,7 @@ const Home = () => {
               />
             </div>
             <div className="mt-6 lg:order-1 lg:mt-0 lg:w-5/12">
-              <h2 className="text-4xl font-bold leading-[1.25]">
-                Accountability that works for you
-              </h2>
+              <h2>Accountability that works for you</h2>
               <p className="mt-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 egestas Werat viverra id et aliquet. vulputate egestas
@@ -191,9 +181,7 @@ const Home = () => {
         <div className="container">
           <div className="wrapper justify-between">
             <div className="lg:w-6/12">
-              <h2 className="text-[2.4rem] font-bold leading-[1.25]">
-                Our customers have nice things to say about us
-              </h2>
+              <h2>Our customers have nice things to say about us</h2>
             </div>
             <div className="mt-4 lg:mt-0 lg:w-4/12">
               <p>
@@ -225,7 +213,7 @@ const Home = () => {
             <div className="lg:w-11/12">
               <div className="wrapper">
                 <div className="lg:w-7/12">
-                  <h2 className="text-[2.4rem] font-bold leading-[1.25] text-white lg:text-5xl lg:leading-[1.25]">
+                  <h2 className="h1 text-white">
                     Helping teams in the world with focus
                   </h2>
                   <Link href="#" className="btn btn-white mt-8">

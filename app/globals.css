@@ -13,6 +13,20 @@ h4,
 h5,
 h6 {
   font-family: var(--font-merriweather);
+  font-weight: 700;
+}
+
+h1,
+.h1 {
+  @apply text-[2.4rem] font-bold leading-[1.25] lg:text-5xl lg:leading-[1.25];
+}
+
+h2 {
+  @apply text-[1.92rem] font-bold leading-[1.25] lg:text-[2.4rem];
+}
+
+p {
+  @apply text-gray-400;
 }
 
 .btn {
