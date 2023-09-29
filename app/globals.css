@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: var(--font-poppins);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-merriweather);
+}
+
 .btn {
   @apply inline-block h-[52px] border-[1px] px-[2rem] py-[0.5rem] text-sm font-medium leading-9 transition-all;
 }
