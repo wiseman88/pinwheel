@@ -81,7 +81,7 @@ footer li > a:hover {
 }
 
 .wrapper {
-  @apply lg:-mx-4 lg:flex lg:flex-row;
+  @apply -mx-4 lg:flex lg:flex-row;
 }
 
 .wrapper > * {

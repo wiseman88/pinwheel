@@ -153,7 +153,7 @@ const Home = () => {
               </ul>
             </div>
           </div>
-          <div className="wrapper">
+          <div className="wrapper mt-12 lg:mt-0">
             <div className="lg:order-2 lg:w-7/12">
               <Image
                 src={intro}
@@ -177,7 +177,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="section">
+      <section>
         <div className="container">
           <div className="wrapper justify-between">
             <div className="lg:w-6/12">
