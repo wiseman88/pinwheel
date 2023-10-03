@@ -4,6 +4,7 @@
 
 * {
   font-family: var(--font-poppins);
+  @apply text-gray-400;
 }
 
 h1,
@@ -14,6 +15,7 @@ h5,
 h6 {
   font-family: var(--font-merriweather);
   font-weight: 700;
+  @apply text-gray-900;
 }
 
 h1,
@@ -25,8 +27,33 @@ h2 {
   @apply text-[1.92rem] font-bold leading-[1.25] lg:text-[2.4rem];
 }
 
+h6,
+.h6 {
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
 p {
   @apply text-gray-400;
+}
+
+footer h6 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+
+  @apply mb-4 lg:mb-8;
+}
+
+footer p {
+  @apply text-sm leading-5;
+}
+
+footer li > a {
+  @apply text-sm leading-5;
+}
+
+footer li > a:hover {
+  @apply text-orange-500 underline;
 }
 
 .btn {
@@ -59,4 +86,20 @@ p {
 
 .wrapper > * {
   @apply px-4;
+}
+
+.footer-box {
+  @apply mt-12 w-full px-4 md:w-1/2 lg:w-1/4 lg:px-6;
+}
+
+.social-icons {
+  @apply -ml-2 mt-4 flex lg:mt-6;
+}
+
+.social-icons li {
+  @apply m-2 inline-block leading-[1];
+}
+
+.social-icons li > a {
+  @apply inline-flex h-11 w-11 items-center justify-center rounded-full bg-white text-center;
 }
