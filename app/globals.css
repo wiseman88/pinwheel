@@ -69,7 +69,7 @@ footer li > a:hover {
 }
 
 .navlink {
-  @apply inline-block px-[0.75rem] py-[0.5rem] text-[15px] hover:text-orange-500;
+  @apply inline-block px-[0.75rem] py-[0.5rem] text-[15px] text-gray-900 hover:text-orange-500;
 }
 
 .navlink.active {
