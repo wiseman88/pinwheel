@@ -101,5 +101,13 @@ footer li > a:hover {
 }
 
 .social-icons li > a {
-  @apply inline-flex h-11 w-11 items-center justify-center rounded-full bg-white text-center;
+  @apply inline-flex h-11 w-11 items-center justify-center rounded-full bg-white text-center transition duration-200;
+}
+
+.social-icons li > a:hover {
+  @apply bg-orange-500;
+}
+
+.social-icons li > a:hover svg {
+  @apply fill-white;
 }
