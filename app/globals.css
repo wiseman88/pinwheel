@@ -111,3 +111,11 @@ footer li > a:hover {
 .social-icons li > a:hover svg {
   @apply fill-white;
 }
+
+.slider .swiper-pagination-bullet {
+  @apply h-[14px] w-[14px] rounded-full bg-gray-400;
+}
+
+.slider .swiper-pagination-bullet-active {
+  @apply bg-orange-500;
+}

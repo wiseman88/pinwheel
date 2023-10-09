@@ -11,7 +11,7 @@ import featureShape from "@/public/images/feature-shape.svg";
 
 import styles from "@/app/(root)/Home.module.css";
 import solutions from "@/constants/home";
-import Customer from "@/components/home/Customer";
+import Slider from "@/components/Slider";
 
 const Home = () => {
   return (
@@ -191,20 +191,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          {/* Carousel */}
-          <div className="wrapper mt-10">
-            <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-              <Customer />
-              <Customer />
-              <Customer />
-            </div>
-            {/* navigation dots */}
-          </div>
-          <div className="flex flex-row items-center justify-center gap-2">
-            <span className="inline-block h-[14px] w-[14px] rounded-full bg-orange-600"></span>
-            <span className="inline-block h-[14px] w-[14px] rounded-full bg-gray-300"></span>
-            <span className="inline-block h-[14px] w-[14px] rounded-full bg-gray-300"></span>
-          </div>
+          <Slider />
         </div>
       </section>
       <section className="px-5 py-20 xl:py-[120px]">
