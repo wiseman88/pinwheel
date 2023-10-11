@@ -9,6 +9,10 @@ import iconSecurityUpdates from "@/public/icons/feature-icon-8.svg";
 import iconFocusMode from "@/public/icons/feature-icon-9.svg";
 import iconFamilyLink from "@/public/icons/feature-icon-10.svg";
 
+import user1 from '@/public/images/user-1.png'
+import user2 from '@/public/images/user-2.png'
+import user3 from '@/public/images/user-3.png'
+
 const solutions = [
     {
         title: 'Live Caption',
@@ -82,4 +86,42 @@ const solutions = [
     },
 ]
 
-export default solutions
+const reviews = [
+    {
+        person: 'Courtney Henry',
+        thumbnail: user1,
+        company: 'Microsoft corp',
+        text: 'Our platform helps build secure onboarding authentica experiences & engage your users.We build .',
+        stars: 4,
+    },
+    {
+        person: 'Ronald Richards',
+        thumbnail: user2,
+        company: 'Meta limited',
+        text: 'Our platform helps build secure onboarding authentica experiences & engage your users.We build .',
+        stars: 3,
+    },
+    {
+        person: 'Bessie Cooper',
+        thumbnail: user3,
+        company: 'Apple Inc. Ltd',
+        text: 'Our platform helps build secure onboarding authentica experiences & engage your users.We build .',
+        stars: 5,
+    },
+    {
+        person: 'Courtney Henry',
+        thumbnail: user1,
+        company: 'Microsoft corp',
+        text: 'Our platform helps build secure onboarding authentica experiences & engage your users.We build .',
+        stars: 1,
+    },
+    {
+        person: 'Ronald Richards',
+        thumbnail: user2,
+        company: 'Meta limited',
+        text: 'Our platform helps build secure onboarding authentica experiences & engage your users.We build .',
+        stars: 2,
+    },
+]
+
+export { solutions, reviews }

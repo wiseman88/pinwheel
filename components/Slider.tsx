@@ -3,6 +3,7 @@
 import React from "react";
 import Customer from "./home/Customer";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { reviews } from "@/constants/home";
 
 // Swiper modules
 import { Pagination } from "swiper/modules";
@@ -26,21 +27,17 @@ const Slider = () => {
           slidesPerView={3}
           className="slider"
         >
-          <SwiperSlide>
-            <Customer />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Customer />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Customer />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Customer />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Customer />
-          </SwiperSlide>
+          {reviews.map((review, index) => (
+            <SwiperSlide key={index}>
+              <Customer
+                person={review.person}
+                thumbnail={review.thumbnail}
+                company={review.company}
+                text={review.text}
+                stars={review.stars}
+              />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </>

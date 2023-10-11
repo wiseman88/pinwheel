@@ -10,7 +10,7 @@ import bannerShape from "@/public/images/banner-shape.svg";
 import featureShape from "@/public/images/feature-shape.svg";
 
 import styles from "@/app/(root)/Home.module.css";
-import solutions from "@/constants/home";
+import { solutions } from "@/constants/home";
 import Slider from "@/components/Slider";
 
 const Home = () => {
