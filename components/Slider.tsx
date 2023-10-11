@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Customer from "./home/Customer";
+import Review from "./home/Review";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { reviews } from "@/constants/home";
 
@@ -29,7 +29,7 @@ const Slider = () => {
         >
           {reviews.map((review, index) => (
             <SwiperSlide key={index}>
-              <Customer
+              <Review
                 person={review.person}
                 thumbnail={review.thumbnail}
                 company={review.company}
