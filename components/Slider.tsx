@@ -9,8 +9,7 @@ import { reviews } from "@/constants/home";
 import { Pagination } from "swiper/modules";
 
 // Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+import "swiper/swiper-bundle.css";
 
 const Slider = () => {
   const pagination = {
