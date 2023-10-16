@@ -12,7 +12,7 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="py-6">
+    <header className="bg-white py-6 lg:bg-transparent">
       <nav className="container flex flex-row items-center justify-between lg:justify-center">
         <div>
           <Link href="/">
