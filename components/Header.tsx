@@ -6,6 +6,7 @@ import Link from "next/link";
 
 import navigation from "@/constants/header";
 import logo from "@/public/images/pinwheel.svg";
+import Menu from "./svg/Menu";
 
 const Header = () => {
   const pathname = usePathname();
@@ -36,21 +37,7 @@ const Header = () => {
           </Link>
         </div>
         <button className="block lg:hidden">
-          <svg
-            className="-mx-1 h-8 w-8 text-gray-500"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            ></path>
-          </svg>
+          <Menu />
         </button>
       </nav>
     </header>
