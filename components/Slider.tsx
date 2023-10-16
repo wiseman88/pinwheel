@@ -4,6 +4,7 @@ import React from "react";
 import Review from "./home/Review";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { reviews } from "@/constants/home";
+import { breakpoints, pagination } from "@/constants/slider";
 
 // Swiper modules
 import { Pagination } from "swiper/modules";
@@ -12,19 +13,16 @@ import { Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
 const Slider = () => {
-  const pagination = {
-    clickable: true,
-  };
-
   return (
     <>
-      <div className="wrapper mt-10">
+      <div className="wrapper mt-10 px-4 lg:px-0">
         <Swiper
           pagination={pagination}
           modules={[Pagination]}
           spaceBetween={50}
-          slidesPerView={3}
+          slidesPerView={1}
           className="slider"
+          breakpoints={breakpoints}
         >
           {reviews.map((review, index) => (
             <SwiperSlide key={index}>
