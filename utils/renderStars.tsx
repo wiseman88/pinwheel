@@ -7,7 +7,9 @@ const renderYellowStars = (stars: number) => {
   const starElements = [];
 
   for (let index = 0; index < stars; index++) {
-    starElements.push(<Image src={star} alt="star" width={25} height={24} />);
+    starElements.push(
+      <Image key={index} src={star} alt="star" width={25} height={24} />,
+    );
   }
 
   return starElements;
@@ -19,7 +21,7 @@ const renderGrayStars = (stars: number) => {
 
   for (let index = 0; index < grayStars; index++) {
     starElements.push(
-      <Image src={starWhite} alt="star" width={25} height={24} />,
+      <Image key={index} src={starWhite} alt="star" width={25} height={24} />,
     );
   }
 
