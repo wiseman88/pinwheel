@@ -61,7 +61,7 @@ footer li > a:hover {
 }
 
 .btn-white {
-  @apply min-w-[150px] rounded-[50px] border-white bg-white text-center capitalize text-black shadow-2xl;
+  @apply min-w-[150px] rounded-[50px] border bg-white text-center capitalize text-black shadow-2xl lg:border-white;
 }
 
 .btn-sm {
@@ -69,7 +69,7 @@ footer li > a:hover {
 }
 
 .navlink {
-  @apply inline-block px-[0.75rem] py-[0.5rem] text-[15px] text-gray-900 hover:text-orange-500;
+  @apply block px-[0.75rem] py-[0.5rem] text-[15px] text-gray-900 hover:text-orange-500 lg:inline-block;
 }
 
 .navlink.active {
