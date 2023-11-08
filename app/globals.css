@@ -57,11 +57,11 @@ footer li > a:hover {
 }
 
 .btn {
-  @apply inline-block h-[52px] border-[1px] px-[2rem] py-[0.5rem] text-sm font-medium leading-9 transition-all;
+  @apply inline-block h-[52px] rounded-[50px] border-[1px] px-[2rem] py-[0.5rem] text-sm font-medium leading-9 transition-all;
 }
 
 .btn-white {
-  @apply min-w-[150px] rounded-[50px] border bg-white text-center capitalize text-black shadow-2xl hover:shadow-lg lg:border-white;
+  @apply min-w-[150px] border bg-white text-center capitalize text-black shadow-2xl hover:shadow-lg lg:border-white;
 }
 
 .btn-sm {
